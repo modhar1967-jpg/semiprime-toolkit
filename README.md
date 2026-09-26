@@ -1,6 +1,5 @@
 # semiprime-toolkit
-[![10.5281/zenodo.22830276
-](https://zenodo.org)](https://doi.org)
+[![DOI](https://zenodo.org)](https://10.5281/zenodo.22830276)
 
 
 Self-contained C++17 tool with two modes: generate finds primes via Miller-Rabin then multiplies them into semiprimes (no test on N), reporting N,p,q,i,n_i,j,n_j,s,d; verify checks a claimed N=p×q by multiplication only. Custom big-integer math, no libraries. Tested on 11,183 semiprimes, RSA-100, and up to 401-digit outputs — zero errors.
